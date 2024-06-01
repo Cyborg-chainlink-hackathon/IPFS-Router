@@ -1,0 +1,19 @@
+{
+  "name": "evm_impl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/storage": "^1.2.11",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "hardhat": "^2.13.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  }
+}
