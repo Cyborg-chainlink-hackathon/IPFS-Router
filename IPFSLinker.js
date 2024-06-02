@@ -28,10 +28,10 @@ const initialiseIPFSData = async () => {
 };
 
 const storeData = async (phNum, pubkey) => {
+  pubkey = pubkey.toLowerCase();
   let data = await storage.downloadJSON(uri);
 
-  ipToPublicKeyMap.publicKeyToEncryptedIP =
-    data.publicKeyToEncryptedIP;
+  ipToPublicKeyMap.publicKeyToEncryptedIP = data.publicKeyToEncryptedIP;
 
   let encryptedIP = encrypt(phNum, keyHex);
   ipToPublicKeyMap.set(encryptedIP, pubkey);
@@ -41,6 +41,7 @@ const storeData = async (phNum, pubkey) => {
 };
 
 const getIPFromStorage = async (pubKey) => {
+  pubKey = pubKey.toLowerCase();
   let data = await storage.downloadJSON(readFromFile());
   console.log(data);
   const val = data?.publicKeyToEncryptedIP?.[pubKey] ?? null;
