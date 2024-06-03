@@ -52,18 +52,3 @@ Functionality: Initializes the IPFS node, sets up necessary configurations, and 
 - **router.js**
 Purpose: Contains the routing logic for handling different requests.
 Functionality: Defines routes to store the encrypted mapping of IP addresses to public keys and provides decryption functionality by accepting the public key as an input.
-
-## Project Structure
-The project structure is as follows:
-
-IPFS-Router/
-├── IPFSLinker.js
-├── IPToPubKeyMap.js
-├── README.md
-├── encryption.js
-├── fileDataHandler.js
-├── ipfsData/
-├── main.js
-├── package-lock.json
-├── package.json
-└── router.js
