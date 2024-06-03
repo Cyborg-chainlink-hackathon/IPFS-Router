@@ -1,6 +1,8 @@
 # IPFS-Router
 
-The IPFS-Router project is designed to create a decentralized and secure system for mapping public keys to IP addresses using IPFS (InterPlanetary File System) for storage and retrieval. This system ensures the privacy and security of IP addresses by encrypting them before storing them on IPFS. Below various scripts and directories are organized to handle encryption, data storage, and retrieval efficiently, providing a robust and secure solution for managing network address mappings. Below is a detailed overview of the functionalities and structure of the project:
+The IPFS-Router project is designed to create a decentralized and secure system for mapping public keys to IP addresses using IPFS (InterPlanetary File System) for storage and retrieval. This system ensures the privacy and security of IP addresses by encrypting them before storing them on IPFS. The project leverages QuickNode and ThirdWeb IPFS gateways for efficient and reliable data handling. Below, various scripts and directories are organized to handle encryption, data storage, and retrieval efficiently, providing a robust and secure solution for managing network address mappings. Here is a detailed overview of the functionalities and structure of the project:
+
+
 
 
 ## Installation & Exceution
